@@ -1,5 +1,5 @@
 #  docker build -t yandex/clickhouse-binary-builder .
-FROM ubuntu:20.04
+FROM ubuntu:20.10
 
 ENV DEBIAN_FRONTEND=noninteractive LLVM_VERSION=11
 
