@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:groovy-20210416
 
 ARG repository="deb https://repo.clickhouse.tech/deb/stable/ main/"
 ARG version=20.12.1.*
